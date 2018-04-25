@@ -1,0 +1,111 @@
+---
+layout: default
+title: Training
+---     
+        <div class="callout large primary" id="bg-image-about">
+            <div class="row column text-center">
+                <h1>Training</h1>
+                <p class="hero-subheader small-12 medium-10 medium-offset-1">
+                    We have extensive resources available for conducting
+                    training sessions
+                </p>
+            </div>
+        </div>
+        
+        <!-- begin Training intro -->
+        <hr class="whitespace">
+        <div class="row column text-center">
+            <p class="medium-10 medium-offset-1">
+                This page gives you an overview of what is available, where to
+                find it and how to use it depending on your set-up and the
+                length of the sessions you wish to run.
+            </p>
+        </div>
+        <div class="row column text-center">
+            <h2>Upcoming workshops</h2>
+        <hr>
+        </div>
+        <div class="row">
+            <div class="medium-1 medium-offset-1 columns"><i class="icon-fa-red fa fa-calendar fa-2x"></i></div>
+            <div class="medium-3 columns">
+                <p>ELMI 2018<br>
+                5-8th June 2018 University College Dublin</p>
+            </div>
+            <div class="medium-1 medium-offset-1 columns"><i class="icon-fa-blue fa fa-calendar fa-2x"></i></div>
+            <div class="medium-3 columns end">
+                <p>TOPIM TECH 2018<br>
+                9-14th July 2018 Mediterranean Agronomic Institute of Chania, Crete</p>
+            </div>
+        </div>
+        <!-- end Training intro -->
+        
+        <!-- begin Training main content -->
+        <div class="row column text-center">
+            <h2>Training resources</h2>
+        </div>        
+        <hr>        
+        <div class="row column">
+            <p>
+                We have set up <a href="https://github.com/ome/training-repos/" target="_blank">ome/training-repos</a>, a super-module on GitHub which
+                collects together all the repositories and reference to the
+                material used for general training sessions.
+            </p>
+            <h4>Set-up</h4>
+            <p>
+                For any training session, we use a dedicated server with the
+                latest released version of OMERO and OMERO.web apps
+                installed. The walkthrough materials used during the sessions
+                refer to the content of that server.
+            </p>
+            <p>
+                If you wish to use a similar set-up, you can run the
+                <a href="https://github.com/openmicroscopy/prod-playbooks/blob/master/ome-dundeeomero.yml" target="_blank">Ansible playbook</a>
+                to deploy the server and the apps. Note that it is only
+                currently available for CentOS 7.
+                Users will then need to be created and data imported for each
+                user. We recommend using <a href="https://docs.openmicroscopy.org/latest/omero/sysadmins/in-place-import.html" target="_blank">in-place-import</a> to reduce the size
+                allocated for data. We offer a script (see below) to import
+                in-place data for the users in the server.
+            </p>
+            <p>
+                We offer a collection of useful scripts to set up and manage
+                the training server: to create users, in-place import data,
+                create annotations for all users, clean up post-training
+                session, etc.
+                The scripts can be found at <a href="https://github.com/ome/training-scripts/tree/master/maintenance" target="_blank">https://github.com/ome/training-scripts/tree/master/maintenance.</a>
+                These scripts can be used against any server.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-1 medium-offset-1 columns"><i class="icon-fa-red fa fa-desktop fa-2x"></i></div>
+        <div class="medium-3 columns">
+            <h4>Data</h4>
+            <p>
+                All the data used during the sessions are publicly available.
+                The file data.txt indicates where to find the images and in
+                which datasets they have been imported.
+            </p>
+            <p>
+                A variety of other
+                formats are also available for download and re-use from
+                <a href="http://downloads.openmicroscopy.org/images/" target="_blank">http://downloads.openmicroscopy.org/images/</a>
+            </p>
+        </div>
+        <div class="medium-1 medium-offset-1 columns"><i class="icon-fa-blue fa fa-desktop fa-2x"></i></div>
+        <div class="medium-3 columns end">
+            <h4>Presentations</h4>
+            <p>
+                Presentations and walkthroughs are publicly available.
+                The length of the walkthroughs varies according to the
+                duration of the workshops. We currently have materials for
+                workshops run for 1-2 hours and 1-2 days.
+            </p>
+            <p>
+                All presentations can be download from 
+                <a href="http://downloads.openmicroscopy.org/presentations/" target="_blank">http://downloads.openmicroscopy.org/presentations/</a>
+                The presentation.txt lists links to a specific training
+                session.
+            </p>
+        </div>
+    </div>
